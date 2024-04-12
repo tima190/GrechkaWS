@@ -2,4 +2,4 @@
 
 “My website about me” project
 
-site: grechkagk.ru
+site: https://grechkagk.ru
