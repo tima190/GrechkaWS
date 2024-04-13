@@ -35,7 +35,27 @@ const router = createRouter({
       path: '/boosty',
       name: 'boosty',
       beforeEnter() {location.href = 'https://boosty.to/grechkagk'}
-    }
+    },
+    {
+      path: '/github',
+      name: 'github',
+      beforeEnter() {location.href = 'https://github.com/tima190'}
+    },
+    {
+      path: '/reddit',
+      name: 'reddit',
+      beforeEnter() {location.href = 'https://www.reddit.com/user/Grechka_GK/'}
+    },
+    {
+      path: '/pinterest',
+      name: 'pinterest',
+      beforeEnter() {location.href = 'https://ru.pinterest.com/grechka_GK/'}
+    },
+    {
+      path: '/vk',
+      name: 'vk',
+      beforeEnter() {location.href = 'https://vk.com/grechkagk'}
+    },
   ]
 })
 
