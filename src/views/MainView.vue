@@ -7,25 +7,33 @@ import navComponent from '@/components/Nav.vue'
 
 <template>
 
-  <div class="bg-cover bg-center bg-fixed bg-[url('../components/wallhaven.jpg')]">
+  <div class="bg-cover bg-center bg-fixed bg-[url('../components/wallhaven2.png')]">
     <navComponent />
 
-    <div class="text-[#171534]">
-      <div class="flex justify-center items-center mt-40">
-        <span class="text-lg md:text-xl font-light text/50">GrechkaWS project</span>
+    <div class="text-white">
+      <div class="flex justify-center items-center mt-[140px] ">
+        <span class="text-lg md:text-xl font-light text/50 bg-[#171534]">GrechkaWS project</span>
       </div>
-      <div class="flex justify-center items-center">
+      <div class="flex justify-center items-center ">
         <span class="text-6xl md:text-8xl font-bold bg-clip-text ">
-          GrechkaGK
-          <br /><span class="text-5xl md:text-7xl">Website</span>
+          GrechkaGK <br/>
+          <span class="text-5xl md:text-7xl">Website</span>
         </span>
       </div>
       <div class="flex justify-center items-center mt-8 ml-8">
-        <span class="text-3xl bg-[#171534] text-white p-2"> very <span
+        <span class="text-3xl bg-[#171534] text-white p-2 rounded-xl"> very <span
             class="text-white bg-gradient-to-r from-sky-500 to-violet-500 font-black hover:italic">cool</span> website
           <span class="drop-shadow"><i class='bx bxs-bolt'></i></span></span>
       </div>
-
+      <div class="pt-8 flex justify-center items-center text-white space-x-5">
+        <nav class=" space-x-10 flex justify-center items-center px-8
+      h-[50px]   w-auto
+      rounded-full  bg-blue-100 font-semibold shadow-lg shadow-cyan-500/50">
+          <a href="https://t.me/grechka_GK_tg" class="text-base md:text-xl alink text-indigo-900 hover:text-indigo-800">
+            telegram channel! <i class='bx bxl-telegram'></i>
+          </a>
+        </nav>
+      </div>
       <div class="pt-8 flex justify-center items-center text-white space-x-5">
         <nav class=" space-x-10 flex justify-center items-center px-8
       h-[50px]   w-auto
@@ -74,6 +82,9 @@ import navComponent from '@/components/Nav.vue'
             boosty <i class='bx bxs-donate-heart'></i>
           </a>
         </nav>
+      </div>
+      <div class="flex justify-center items-center mt-5">
+        <span class="text-lg md:text-xl font-light text/50">*NOT MY PICTURE ON BACKGROUND*</span>
       </div>
     </div>
     <img src="../components/layer2.svg" class="w-screen mt-60">
